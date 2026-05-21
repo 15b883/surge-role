@@ -1,0 +1,41 @@
+# ===== 微信核心 =====
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wxapp.tc.qq.com
+DOMAIN-SUFFIX,servicewechat.com
+
+# ===== 腾讯核心 =====
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,idqqimg.com
+
+# ===== 微信图片/CDN =====
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,url.cn
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,myqcloud.com
+
+# ===== 企业微信 =====
+DOMAIN-SUFFIX,wecom.com
+
+# ===== 微信视频号 =====
+DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,v.qq.com
+
+# ===== 微信语音/电话 =====
+DOMAIN-SUFFIX,voip.qq.com
+
+# ===== 腾讯地图 =====
+DOMAIN-SUFFIX,map.qq.com
+
+# ===== 微信小程序 =====
+DOMAIN-SUFFIX,servicewechat.com
+
+# ===== 腾讯云 =====
+DOMAIN-SUFFIX,tencentyun.com
+
+# ===== QUIC / UDP =====
+IP-CIDR,101.32.0.0/12,no-resolve
+IP-CIDR,129.204.0.0/16,no-resolve
+IP-CIDR,43.152.0.0/16,no-resolve
