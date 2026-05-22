@@ -1,9 +1,74 @@
+# NAME: AI Services Rules
+# AUTHOR: 15b883
+# REPO: https://github.com/15b883/surge-role
+# UPDATED: 2026.05.22
+# DESCRIPTION: Rules for AI / LLM services
+
+# ===== OpenAI / ChatGPT =====
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+
+# ===== Anthropic / Claude =====
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic-cdn.com
+
+# ===== Google AI =====
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,makersuite.google.com
+DOMAIN,gemini.google.com
+
+# ===== Perplexity =====
+DOMAIN-SUFFIX,perplexity.ai
+
+# ===== Microsoft Copilot =====
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+
+# ===== Midjourney =====
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordcdn.com
+
+# ===== Hugging Face =====
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+
+# ===== Stability AI =====
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,dreamstudio.ai
+
+# ===== Cohere =====
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+
+# ===== Meta AI =====
+DOMAIN,imagine.meta.com
+
+# ===== JetBrains AI =====
+DOMAIN,api.jetbrains.ai
+
+# ===== Cloudflare AI Gateway =====
+DOMAIN,gateway.ai.cloudflare.com
+
+# ===== Replicate =====
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery

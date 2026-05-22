@@ -1,0 +1,13 @@
+#!name=Subscription Info
+#!desc=Show subscription traffic usage and expiry date
+#!category=Panel
+#!author=mieqq, Rabbit-Spec
+#!repo=https://github.com/15b883/surge-role
+#!arguments=NAME:My Airport,URL:YOUR_ENCODED_SUB_URL,RESET_DAY:1,ICON:externaldrive.fill.badge.icloud,COLOR:#FFB6C1
+#!arguments-desc=[Parameters]\n\nNAME: Display name for your subscription.\n\nURL: URL-encoded subscription link.\n\nRESET_DAY: Day of month when traffic resets (e.g. 1 for the 1st). Leave blank to hide.\n\nICON: SF Symbol name for the panel icon.\n\nCOLOR: HEX color for the icon (e.g. #FFB6C1).
+
+[Panel]
+{{{NAME}}} = script-name={{{NAME}}}, update-interval=3600
+
+[Script]
+{{{NAME}}} = type=generic, timeout=10, script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js, script-update-interval=0, argument=url={{{URL}}}&reset_day={{{RESET_DAY}}}&title={{{NAME}}}&icon={{{ICON}}}&color={{{COLOR}}}

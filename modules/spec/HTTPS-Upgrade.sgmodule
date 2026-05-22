@@ -1,0 +1,17 @@
+#!name=HTTPS Upgrade
+#!desc=Automatically upgrade HTTP requests to HTTPS for major websites
+#!category=Security
+#!author=15b883
+#!repo=https://github.com/15b883/surge-role
+
+[URL Rewrite]
+^http://(www\.)?google\.com https://www.google.com 302
+^http://(www\.)?github\.com https://github.com 302
+^http://(www\.)?twitter\.com https://twitter.com 302
+^http://(www\.)?x\.com https://x.com 302
+^http://(www\.)?instagram\.com https://www.instagram.com 302
+^http://(www\.)?facebook\.com https://www.facebook.com 302
+^http://(www\.)?reddit\.com https://www.reddit.com 302
+^http://(www\.)?wikipedia\.org https://www.wikipedia.org 302
+^http://(www\.)?notion\.so https://www.notion.so 302
+^http://(www\.)?medium\.com https://medium.com 302

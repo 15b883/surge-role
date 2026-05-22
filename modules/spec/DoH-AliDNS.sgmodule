@@ -1,0 +1,10 @@
+#!name=DNS over HTTPS (AliDNS)
+#!desc=Enable DNS over HTTPS using Alibaba Public DNS for better privacy and accuracy
+#!category=DNS
+#!author=15b883
+#!repo=https://github.com/15b883/surge-role
+
+[General]
+encrypted-dns-server = https://dns.alidns.com/dns-query
+encrypted-dns-follow-outbound-mode = false
+doh-follow-outbound-mode = false

@@ -1,0 +1,11 @@
+#!name=IP Check
+#!desc=Display current node IP, ISP, and location info
+#!category=Panel
+#!author=congcong0806, Rabbit-Spec
+#!repo=https://github.com/15b883/surge-role
+
+[Panel]
+IP-Check = script-name=IP-Check, title="Node Info", content="Tap refresh", style=info, update-interval=1
+
+[Script]
+IP-Check = type=generic, timeout=10, script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/IP-Check/Moore/IP-Check.js, script-update-interval=0

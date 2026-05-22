@@ -1,0 +1,25 @@
+#!name=General Ad Block
+#!desc=Block common ad and tracker requests via URL pattern matching
+#!category=Ad Block
+#!author=15b883
+#!repo=https://github.com/15b883/surge-role
+
+[URL Rewrite]
+# > Google Ads
+^https?:\/\/pagead[0-9]?\.googlesyndication\.com reject-200
+^https?:\/\/adservice\.google\.(com|[a-z]{2}) reject-200
+
+# > DoubleClick
+^https?:\/\/(www\.)?doubleclick\.net reject-200
+
+# > Common ad/tracker CDN
+^https?:\/\/(cdn|px|stat)\.(taboola|outbrain|criteo)\.com reject-200
+
+[Rule]
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN,adservice.google.com,REJECT
+DOMAIN-SUFFIX,taboola.com,REJECT
+DOMAIN-SUFFIX,outbrain.com,REJECT
+DOMAIN-SUFFIX,criteo.com,REJECT
+DOMAIN-SUFFIX,criteo.net,REJECT

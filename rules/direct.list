@@ -1,4 +1,109 @@
-GEOIP,CN
-DOMAIN-SUFFIX,qq.com
+# NAME: Direct Rules
+# AUTHOR: 15b883
+# REPO: https://github.com/15b883/surge-role
+# UPDATED: 2026.05.22
+# DESCRIPTION: Rules for domestic services that should bypass proxy
+
+# ===== China IP =====
+GEOIP,CN,no-resolve
+
+# ===== Baidu =====
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidubce.com
+DOMAIN-SUFFIX,baiducontent.com
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,bcebos.com
+DOMAIN-SUFFIX,map.baidu.com
+
+# ===== Taobao / Tmall / Alibaba =====
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alimama.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+
+# ===== Bilibili =====
 DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,biliapi.net
+
+# ===== NetEase =====
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,ydstatic.com
+DOMAIN-SUFFIX,music.163.com
+
+# ===== Meituan / Dianping =====
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,dpfile.com
+
+# ===== JD.com =====
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,jcloudcs.com
+
+# ===== WeChat Pay / Alipay (direct) =====
+DOMAIN-SUFFIX,wxpay.com
+DOMAIN-SUFFIX,wepay.com
+
+# ===== iQiyi =====
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+
+# ===== Youku =====
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,aliapp.org
+
+# ===== Zhihu =====
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+
+# ===== Weibo =====
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,sina.cn
+
+# ===== DiDi =====
+DOMAIN-SUFFIX,didiglobal.com
+DOMAIN-SUFFIX,udache.com
+DOMAIN-SUFFIX,xiaojukeji.com
+
+# ===== ByteDance (Non-overseas) =====
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytefcdn.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,toutiaoimg.com
+DOMAIN-SUFFIX,zjurl.cn
+
+# ===== China Mobile / Telecom / Unicom =====
+DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,10086.cn
+DOMAIN-SUFFIX,chinatelecom.com.cn
+DOMAIN-SUFFIX,189.cn
+DOMAIN-SUFFIX,chinaunicom.com
+DOMAIN-SUFFIX,10010.com
+
+# ===== CN DNS =====
+DOMAIN-SUFFIX,alidns.com
+DOMAIN-SUFFIX,dnspod.cn

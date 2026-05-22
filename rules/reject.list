@@ -1,3 +1,85 @@
+# NAME: Reject / Ad Block Rules
+# AUTHOR: 15b883
+# REPO: https://github.com/15b883/surge-role
+# UPDATED: 2026.05.22
+# DESCRIPTION: Rules for blocking ads, trackers, and malicious domains
+
+# ===== Google Ads =====
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,adservice.google.com
+DOMAIN,adservice.google.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,pagead2.googlesyndication.com
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+
+# ===== Common Ad Networks =====
+DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,adsafeprotected.com
+DOMAIN-SUFFIX,advertising.com
+DOMAIN-SUFFIX,adform.net
+DOMAIN-SUFFIX,adfox.ru
+DOMAIN-SUFFIX,adition.com
+DOMAIN-SUFFIX,admixer.net
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,adsrvr.org
+DOMAIN-SUFFIX,adtarget.me
+DOMAIN-SUFFIX,adtechus.com
+DOMAIN-SUFFIX,adverticum.net
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,criteo.com
+DOMAIN-SUFFIX,criteo.net
+DOMAIN-SUFFIX,smartadserver.com
+DOMAIN-SUFFIX,openx.net
+DOMAIN-SUFFIX,outbrain.com
+DOMAIN-SUFFIX,sharethrough.com
+DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,moatads.com
+DOMAIN-SUFFIX,pubmatic.com
+DOMAIN-SUFFIX,rubiconproject.com
+DOMAIN-SUFFIX,spotxchange.com
+DOMAIN-SUFFIX,mathtag.com
+DOMAIN-SUFFIX,nexac.com
+DOMAIN-SUFFIX,rhythmone.com
+DOMAIN-SUFFIX,sonobi.com
+DOMAIN-SUFFIX,sovrn.com
+DOMAIN-SUFFIX,tradedesk.com
+DOMAIN-SUFFIX,contextweb.com
+DOMAIN-SUFFIX,casalemedia.com
+
+# ===== Trackers =====
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,chartbeat.com
+DOMAIN-SUFFIX,chartbeat.net
+DOMAIN-SUFFIX,datadog-browser-agent.com
+DOMAIN-SUFFIX,hotjar.com
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,heap.io
+DOMAIN-SUFFIX,fullstory.com
+DOMAIN-SUFFIX,logrocket.com
+DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,newrelic.com
+DOMAIN-SUFFIX,nr-data.net
+
+# ===== Chinese Ad Networks =====
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umeng.co
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,admaster.com.cn
+DOMAIN-SUFFIX,adsame.com
+DOMAIN-SUFFIX,adhub.cc
+DOMAIN-SUFFIX,tanx.com
+DOMAIN-SUFFIX,alimama.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,hm.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,cpro.baidu.com
+DOMAIN-SUFFIX,nsclick.baidu.com
+DOMAIN-SUFFIX,wangdaiwan.com
+DOMAIN-SUFFIX,appsflyer.cn

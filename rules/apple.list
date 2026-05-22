@@ -1,4 +1,53 @@
+# NAME: Apple Services Rules
+# AUTHOR: 15b883
+# REPO: https://github.com/15b883/surge-role
+# UPDATED: 2026.05.22
+# DESCRIPTION: Rules for Apple services (App Store, iCloud, Apple Music, etc.)
+
+# ===== Apple Core =====
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,applebot.apple.com
+DOMAIN-SUFFIX,applenews.com
+DOMAIN-SUFFIX,applepay.apple.com
+
+# ===== iCloud =====
 DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com.cn
+
+# ===== App Store / iTunes =====
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,phobos.apple.com
+
+# ===== Apple CDN =====
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,akamaized.net
+
+# ===== Siri / AI =====
+DOMAIN,guzzoni.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+
+# ===== Apple Music =====
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,lsmp2.itunes.apple.com
+DOMAIN-SUFFIX,audiocontentdownload.apple.com
+DOMAIN-SUFFIX,s.mzstatic.com
+
+# ===== TestFlight =====
+DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-SUFFIX,blobstore.apple.com
+
+# ===== Other Apple Services =====
+DOMAIN-SUFFIX,swcd.apple.com
+DOMAIN-SUFFIX,osxapps.itunes.apple.com

@@ -1,0 +1,13 @@
+#!name=Streaming Unlock Check
+#!desc=Detect Netflix, Disney+, YouTube Premium unlock status for current node
+#!category=Panel
+#!author=Rabbit-Spec
+#!repo=https://github.com/15b883/surge-role
+#!arguments=UPDATE_INTERVAL:3600
+#!arguments-desc=[Parameters]\n\nUPDATE_INTERVAL: Auto-refresh interval in seconds (default 3600 = 1 hour). Set -1 to disable auto-refresh.
+
+[Panel]
+Stream-Unlock = script-name=stream-unlock, title="Streaming Unlock", content="Tap refresh", update-interval={{{UPDATE_INTERVAL}}}
+
+[Script]
+stream-unlock = type=generic, timeout=30, script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Stream-All/Moore/Stream-All.js, script-update-interval=0

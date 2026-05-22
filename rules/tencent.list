@@ -1,41 +1,72 @@
-# ===== 微信核心 =====
+# NAME: Tencent Services Rules
+# AUTHOR: 15b883
+# REPO: https://github.com/15b883/surge-role
+# UPDATED: 2026.05.22
+# DESCRIPTION: Rules for Tencent services (WeChat, QQ, Tencent Cloud, etc.)
+
+# ===== WeChat Core =====
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,wxapp.tc.qq.com
 DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,wx.qq.com
 
-# ===== 腾讯核心 =====
+# ===== QQ Core =====
 DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,url.cn
+DOMAIN-SUFFIX,qlogo.cn
+
+# ===== Tencent Core =====
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,idqqimg.com
-
-# ===== 微信图片/CDN =====
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,url.cn
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,myqcloud.com
 
-# ===== 企业微信 =====
-DOMAIN-SUFFIX,wecom.com
+# ===== WeChat Image / CDN =====
+DOMAIN-SUFFIX,wx.qlogo.cn
+DOMAIN-SUFFIX,res.wx.qq.com
+DOMAIN-SUFFIX,mmbiz.qpic.cn
 
-# ===== 微信视频号 =====
+# ===== Enterprise WeChat =====
+DOMAIN-SUFFIX,wecom.com
+DOMAIN-SUFFIX,work.weixin.qq.com
+DOMAIN-SUFFIX,qyapi.weixin.qq.com
+
+# ===== WeChat Video =====
 DOMAIN-SUFFIX,video.qq.com
 DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,liveg.qq.com
+DOMAIN-SUFFIX,vod2.myqcloud.com
 
-# ===== 微信语音/电话 =====
+# ===== WeChat Voice / Call =====
 DOMAIN-SUFFIX,voip.qq.com
 
-# ===== 腾讯地图 =====
+# ===== Tencent Map =====
 DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,apis.map.qq.com
 
-# ===== 微信小程序 =====
-DOMAIN-SUFFIX,servicewechat.com
+# ===== WeChat Mini Programs =====
+DOMAIN-SUFFIX,miniapp.qq.com
 
-# ===== 腾讯云 =====
+# ===== Tencent Cloud =====
 DOMAIN-SUFFIX,tencentyun.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,cos.ap-guangzhou.myqcloud.com
+DOMAIN-SUFFIX,tcb-api.tencentcloudapi.com
 
-# ===== QUIC / UDP =====
+# ===== Tencent Games =====
+DOMAIN-SUFFIX,game.qq.com
+DOMAIN-SUFFIX,wegame.com
+DOMAIN-SUFFIX,pvp.qq.com
+
+# ===== QQ Music =====
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN-SUFFIX,music.qq.com
+
+# ===== QUIC / UDP IP Ranges =====
 IP-CIDR,101.32.0.0/12,no-resolve
 IP-CIDR,129.204.0.0/16,no-resolve
 IP-CIDR,43.152.0.0/16,no-resolve
+IP-CIDR,162.62.0.0/16,no-resolve
+IP-CIDR,175.27.0.0/16,no-resolve

@@ -1,0 +1,67 @@
+# NAME: Microsoft Services Rules
+# AUTHOR: 15b883
+# REPO: https://github.com/15b883/surge-role
+# UPDATED: 2026.05.22
+# DESCRIPTION: Rules for Microsoft services (Office 365, OneDrive, Teams, etc.)
+
+# ===== Microsoft Core =====
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,microsoftazuread-sso.com
+DOMAIN-SUFFIX,microsofttranslator.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msidentity.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsazure.com
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azure.net
+DOMAIN-SUFFIX,azurefd.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,azurewebsites.net
+
+# ===== Office 365 =====
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,officeapps.live.com
+DOMAIN-SUFFIX,officeppe.net
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepoint-df.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,teams.microsoft.com
+DOMAIN-SUFFIX,teams.live.com
+
+# ===== OneDrive =====
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,1drv.ms
+DOMAIN-SUFFIX,skydriveusercontent.com
+
+# ===== Visual Studio / GitHub Copilot =====
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,vscode.dev
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,gallerycdn.vsassets.io
+
+# ===== Bing =====
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,appcenter.ms
+
+# ===== LinkedIn =====
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+
+# ===== Xbox =====
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservices.com
+DOMAIN-SUFFIX,assets.xbox.com
+
+# ===== CDN =====
+DOMAIN-SUFFIX,a-msedge.net
+DOMAIN-SUFFIX,aspnetcdn.com
+DOMAIN-SUFFIX,edgesuite.net
+DOMAIN,aka.ms

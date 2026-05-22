@@ -1,0 +1,13 @@
+#!name=Google Redirect
+#!desc=Redirect google.cn and g.cn to google.com in Safari
+#!system=ios
+#!category=Rewrite
+#!author=Rabbit-Spec
+#!repo=https://github.com/15b883/surge-role
+
+[URL Rewrite]
+^https?://(www\.)?g\.cn https://www.google.com 302
+^https?://(www\.)?google\.cn https://www.google.com 302
+
+[MITM]
+hostname = %APPEND% www.google.cn, www.g.cn

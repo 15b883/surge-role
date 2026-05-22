@@ -1,0 +1,13 @@
+#!name=Sub-Store
+#!desc=Advanced subscription manager — convert, filter, and merge proxy subscriptions
+#!category=Tool
+#!author=Peng-YM
+#!repo=https://github.com/15b883/surge-role
+
+[MITM]
+hostname = %APPEND% sub.store
+
+[Script]
+Sub-Store-Core = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, timeout=120, ability=http-client-policy
+
+Sub-Store-Simple = type=http-request, pattern=^https?:\/\/sub\.store, script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true

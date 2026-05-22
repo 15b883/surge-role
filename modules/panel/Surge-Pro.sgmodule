@@ -1,0 +1,11 @@
+#!name=Surge Pro Status
+#!desc=Display Surge license type, version, and device info
+#!category=Panel
+#!author=Rabbit-Spec
+#!repo=https://github.com/15b883/surge-role
+
+[Panel]
+SurgePro = script-name=SurgePro, update-interval=3600
+
+[Script]
+SurgePro = type=generic, timeout=10, script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Surge-Pro/Moore/SurgePro.js, script-update-interval=0
