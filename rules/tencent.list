@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,wxapp.tc.qq.com
 
 # ===== QQ Core =====
 DOMAIN-SUFFIX,qq.com
